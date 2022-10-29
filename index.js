@@ -127,8 +127,8 @@ function createBoard() {
               chosenCardsIds = [];
               tries++;
               score++;
-              textScore.innerHTML = `Score: ${score}`;
-              textTries.innerHTML = `Turns: ${tries}`;
+              textScore.innerHTML = `Score:${score}`;
+              textTries.innerHTML = `Turns:${tries}`;
               if (score == 6) {
                 restart.classList.toggle("hidden");
               }
@@ -145,7 +145,7 @@ function createBoard() {
               chosenFlip = [];
               chosenFronts = [];
               tries++;
-              textTries.innerHTML = `Turns: ${tries}`;
+              textTries.innerHTML = `Turns:${tries}`;
               chosenCardsIds = [];
             }, 1000);
           }

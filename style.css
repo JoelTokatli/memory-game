@@ -112,6 +112,10 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
+    .text {
+        font-size: 18px;
+        text-align: center;
+    }
 
         #grid {
             display: grid;
@@ -127,4 +131,5 @@ h2 {
                     width: 100px;
                     height: 100px;
             }
+
 }
