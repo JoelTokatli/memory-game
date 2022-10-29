@@ -68,8 +68,8 @@ restart.addEventListener("click", () => {
   gridDisplay.innerHTML = "";
   tries = 0;
   score = 0;
-  textScore.innerHTML = `Score: ${score}`;
-  textTries.innerHTML = `Turns: ${tries}`;
+  textScore.innerHTML = `Score:${score}`;
+  textTries.innerHTML = `Turns:${tries}`;
   createBoard();
   restart.classList.toggle("hidden");
 });
