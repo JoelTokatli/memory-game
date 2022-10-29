@@ -141,7 +141,6 @@ function createBoard() {
               chosenFronts.forEach((element) =>
                 element.classList.remove("card_front_chosen")
               );
-              console.log(chosenCards);
               chosenCards = [];
               chosenFlip = [];
               chosenFronts = [];
