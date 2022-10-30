@@ -66,6 +66,7 @@ let score = 0;
 
 restart.addEventListener("click", () => {
   gridDisplay.innerHTML = "";
+  cardsArray.sort(() => 0.5 - Math.random());
   tries = 0;
   score = 0;
   textScore.innerHTML = `Score:${score}`;
